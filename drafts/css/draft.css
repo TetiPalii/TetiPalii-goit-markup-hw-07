@@ -1,0 +1,68 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+
+.box {
+  animation-name: changeBgColor;
+  animation-duration: 3000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 5;
+}
+
+@keyframes changeBgColor {
+  0% {
+    background-color: teal;
+  }
+
+  50% {
+    background-color: orange;
+  }
+
+  100% {
+    background-color: deepskyblue;
+  }
+}
+.btn {
+  position: relative;
+  width: 450px;
+  height: 100px;
+  background-color: red;
+  margin-top: 10px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.btn::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: black;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover::before {
+  transform: translateY(-55px);
+}
+
+.btn::after {
+  position: absolute;
+  left: 155px;
+  bottom: 39px;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  transform: translateY(calc(-50% + 70px));
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover::after {
+  transform: translateY(-30%);
+}
+.btn:hover {
+  background-color: aquamarine;
+}
