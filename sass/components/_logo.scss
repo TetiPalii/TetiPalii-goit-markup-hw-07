@@ -1,10 +1,23 @@
 .logo {
-    margin-right: 93px;
-  
-    color: var(--logo-text-color);
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-  }
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  margin-right: 93px;
+  color: #000000;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-right: 156px;
+  padding-bottom: 20px;
+  color: var(--text-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
