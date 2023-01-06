@@ -1,3 +1,8 @@
-body {
-  background-color: red;
-}
+@import 'utils/variables';
+@import 'base/base';
+@import 'base/reset';
+@import 'layout/container';
+@import 'utils/fonts';
+@import 'layout/navigation';
+@import 'components/logo';
+@import 'components/contacts';
