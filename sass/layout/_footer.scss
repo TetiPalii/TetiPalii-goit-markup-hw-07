@@ -7,4 +7,5 @@
 .footer__container {
   display: flex;
   align-items: baseline;
+  @extend %container;
 }

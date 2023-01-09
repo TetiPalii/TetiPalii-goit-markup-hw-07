@@ -49,10 +49,10 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero-section__button:hover,
-.hero-section__button:focus {
-  color: var(--text-color);
-  background-color: var(--hero-button-color);
+  &:hover,
+  &:focus {
+    color: var(--text-color);
+    background-color: var(--hero-button-color);
+  }
 }

@@ -1,14 +1,23 @@
+.section-spec {
+  @extend %section;
+  @extend %container;
+}
 .section-spec__list {
   display: flex;
+  @extend %list;
+}
+
+.section-padding {
+  padding-top: 0;
 }
 
 .section-spec__item {
   position: relative;
   flex-basis: calc((100% - 60px) / 3);
-}
 
-.section-spec__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .section-spec__text {

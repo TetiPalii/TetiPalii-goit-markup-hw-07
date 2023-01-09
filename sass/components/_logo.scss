@@ -4,6 +4,7 @@
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  @extend %link;
 }
 
 .logo-header {
