@@ -6,7 +6,6 @@
 
   &--grey {
     background-color: rgba(255, 255, 255, 0.1);
-    color: var(--text-color);
   }
 }
 
@@ -20,7 +19,7 @@
 }
 
 .icons-list__icon {
-  fill: currentColor;
+  fill: #fff;
 }
 
 .icons-list__link {
