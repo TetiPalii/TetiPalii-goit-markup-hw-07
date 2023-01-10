@@ -354,6 +354,10 @@ p {
   background-color: var(--hero-button-color);
 }
 
+.icons-list__icon {
+  fill: currentColor;
+}
+
 .icons-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,6 +370,9 @@ p {
 .icons-list--grey {
   background-color: rgba(255, 255, 255, 0.1);
 }
+.icons-list .icons-list--white {
+  fill: #fff;
+}
 
 .icons-list__item {
   width: 44px;
@@ -373,10 +380,6 @@ p {
 }
 .icons-list__item:not(:last-child) {
   margin-right: 10px;
-}
-
-.icons-list__icon {
-  fill: #fff;
 }
 
 .icons-list__link {
